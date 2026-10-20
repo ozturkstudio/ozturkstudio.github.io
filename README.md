@@ -1,4 +1,4 @@
-# Öztürk Stüdyo
+# Öztürk Studio
 
 Web siteleri ve tanıtım filmleri, Isparta.
 
