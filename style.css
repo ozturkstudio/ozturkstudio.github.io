@@ -147,6 +147,10 @@ section{position:relative}
 .svc .incl li{break-inside:avoid}
 @media (max-width:820px){.svc{grid-template-columns:1fr}.svc .incl{columns:1}}
 .launch{background:#fff}
+.faq-page{padding-top:clamp(40px,6vw,72px)}
+.ask{max-width:780px;margin-top:64px;padding:32px;border-radius:20px;background:linear-gradient(120deg,var(--blush),var(--lilac));display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.ask .h3{margin:0 0 6px}
+.ask p{margin:0;color:var(--plum-soft);max-width:44ch}
 .faq{max-width:780px;margin-top:40px}
 .faq h3{font-family:var(--sans);font-weight:600;font-size:15px;color:var(--rose);margin:56px 0 4px}
 .faq h3:first-child{margin-top:0}
