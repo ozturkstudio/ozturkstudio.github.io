@@ -62,7 +62,7 @@ a{color:inherit}
 .hero-grid{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vw,48px)}
 .word{font-family:var(--serif);font-weight:500;font-size:clamp(4.4rem,20vw,13.5rem);line-height:.86;letter-spacing:-.035em;margin:0;
   background:linear-gradient(100deg,var(--plum) 0%,var(--plum-soft) 38%,var(--rose) 78%,#D7A3AF 100%);
-  -webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:.06em}
+  -webkit-background-clip:text;background-clip:text;color:transparent;padding:.3em 0 .06em;margin-top:-.3em}
 .word span{display:block}
 .word span+span{padding-left:clamp(1.2rem,14vw,12rem)}
 .hero-foot{display:grid;grid-template-columns:minmax(0,1.1fr) auto;align-items:end;gap:32px;border-top:1px solid var(--line);padding-top:28px}
@@ -139,7 +139,7 @@ section{position:relative}
 /* Hizmetler sayfası */
 .page-head{position:relative;padding:170px 0 clamp(60px,8vw,100px);isolation:isolate;overflow:hidden}
 .page-head::before{content:"";position:absolute;inset:-30%;z-index:-1;background:radial-gradient(40% 50% at 85% 30%,var(--blush),rgba(235,207,214,0) 70%),radial-gradient(35% 45% at 5% 90%,var(--lilac),rgba(218,211,232,0) 70%)}
-.page-head h1{font-family:var(--serif);font-weight:500;font-size:clamp(3.4rem,10vw,8rem);line-height:.92;letter-spacing:-.03em;margin:0 0 28px;background:linear-gradient(100deg,var(--plum),var(--rose));-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:.05em}
+.page-head h1{font-family:var(--serif);font-weight:500;font-size:clamp(3.4rem,10vw,8rem);line-height:.92;letter-spacing:-.03em;margin:0 0 28px;background:linear-gradient(100deg,var(--plum),var(--rose));-webkit-background-clip:text;background-clip:text;color:transparent;padding:.3em 0 .05em;margin-top:-.3em}
 .svc{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(28px,6vw,96px);padding:clamp(56px,7vw,88px) 0;border-top:1px solid var(--line)}
 .svc:first-of-type{border-top:0}
 .svc .who{color:var(--muted);margin:0}
